@@ -6,16 +6,11 @@ import scipy as sp
 from scipy import signal
 from scipy import stats
 from scipy.interpolate import interp1d
-import matplotlib.pyplot as plt
-import astropy.stats as astats
-import matplotlib.mlab as mlab
-from matplotlib.colors import LogNorm
 from astropy.wcs import WCS
 from scipy.optimize import curve_fit
 from astropy.utils.data import download_file
 from astropy.utils.data import clear_download_cache
 from astropy.visualization import ZScaleInterval
-from mpl_toolkits.axes_grid.anchored_artists import AnchoredText
 from astropy import units as u
 from astropy.coordinates import SkyCoord, Angle, ICRS
 import utilities as util
@@ -34,6 +29,14 @@ def unwisest(ra, dec, plot=True, verbose=True, outfile=None, pixel=True, neo=Tru
   thres      = 3
 
   if plot:
+
+    # import plotting function
+    import astropy.stats as astats
+    import matplotlib.pyplot as plt
+    import matplotlib.mlab as mlab
+    from matplotlib.colors import LogNorm
+    from mpl_toolkits.axes_grid.anchored_artists import AnchoredText
+
     # Set some plotting functions
     plt.rc('xtick', labelsize=8)
     plt.rc('ytick', labelsize=8)
