@@ -3,16 +3,16 @@ unwisest
 ====
 
 .. image:: http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
-:target: http://www.astropy.org
-:alt: Powered by Astropy Badge
+  :target: http://www.astropy.org
+  :alt: Powered by Astropy Badge
 
 .. image:: http://img.shields.io/badge/powered%20by-SciPy-orange.svg?style=flat
-:target: http://www.scipy.org
-:alt: Powered by Scipy Badge
+  :target: http://www.scipy.org
+  :alt: Powered by Scipy Badge
 
 .. image:: http://img.shields.io/badge/powered%20by-matplotlib-orange.svg?style=flat
-:target: http://www.matplotlib.org
-:alt: Powered by Matplotlib Badge
+  :target: http://www.matplotlib.org
+  :alt: Powered by Matplotlib Badge
 
 
 Description
