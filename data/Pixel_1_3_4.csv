@@ -1,0 +1,17 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - {name: lowAmp, datatype: float64}
+# - {name: highAmp, datatype: float64}
+# - {name: semimajor, datatype: float64}
+# - {name: semiminor, datatype: float64}
+# - {name: meanx, datatype: float64}
+# - {name: meany, datatype: float64}
+# - {name: angle, datatype: float64}
+# meta: !!omap
+# - {comment: 'W1-W3; Number of bins: 4; Stars per bin: 218053'}
+lowAmp highAmp semimajor semiminor meanx meany angle
+5.37727274353e-06 2221.03680058 0.699367330843 0.668183789175 0.0111862041706 -0.0327595546791 96.2909655465
+2221.04739846 3739.5120093 0.447161606506 0.417111593828 0.0124425540176 -0.0427460969863 82.8014414054
+3739.51593253 7948.86367914 0.35141248909 0.313096521723 0.0112465052374 -0.0447165552649 80.0530129392
+7949.03835951 2328756.05275 0.186876340701 0.143253490029 0.0163537053083 -0.0115021397642 67.7142922769
