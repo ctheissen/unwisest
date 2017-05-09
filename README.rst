@@ -23,6 +23,19 @@ This package is a point source confidence analyzer for WISE using unWISE.
 Installation instructions and basic usage can be found on the `wiki <https://github.com/ctheissen/unwisest/wiki/>`_.
 
 
+Requirements
+------------------
+
+h5py
+
+astropy
+
+numpy
+
+scipy
+
+matplotlib (optional)
+
 Full Documentation
 ------------------
 
@@ -31,7 +44,7 @@ Coming soon.
 The easiest usage of this is to clone it into a directory.
 You can use unwisest from the command line through the command:
     python unwisest ra dec
-where "ra" is the right ascencion in decimal degrees and "dec" is the declination in decimal degrees. More funcationaliy can be accessed by import unwisest as a function within python.
+where "ra" is the right ascencion in decimal degrees and "dec" is the declination in decimal degrees. More funcationaliy can be accessed by importing unwisest as a function within python.
   
 
 
