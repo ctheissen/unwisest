@@ -34,7 +34,10 @@ numpy
 
 scipy
 
+internet connection
+
 matplotlib (optional)
+
 
 Full Documentation
 ------------------
